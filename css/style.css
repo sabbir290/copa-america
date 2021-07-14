@@ -1,0 +1,126 @@
+/* font import from google.com */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,600;1,700&display=swap');
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section start  */
+.header-section{
+    background-color: #2D25A0;
+    display: flex;
+    padding-top: 110px;
+    padding-bottom: 80px;
+    height: 517px;
+    margin-bottom: 70px;
+}
+.title-text{
+    padding-left: 170px;
+    margin-right: 50px;
+    font-size: 34px;
+    padding-top: 65px;
+    color: #FFFFFF;
+    line-height: 80px;
+} 
+.watch, .watch-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: white;
+} 
+
+.header-logo img{
+    height: 480px;
+    width: 580px;
+    padding-right: 165px;
+    padding-top: 30px;
+}
+/* header section end */
+
+/* Player css Start  */
+.players{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 30px; 
+
+}
+.player{
+    margin: 16px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.player h3{
+    font-style: normal;
+    font-size: 30px;
+    line-height: 15px;
+    color: #18191F;
+}
+.player p, .highlights-artical{
+    font-weight: normal;
+    color: #6C6C6C;
+}
+.player img{
+    height: 256px;
+    width: 300px;
+}
+/* Player css End  */
+
+/* Highlights Section start */
+
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.images img{
+    height: 427px;
+    width: 567px;
+    padding-right: 100px;
+}
+.highlights-div{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.highlights-title{
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+    
+}
+.highlights-artical{
+    text-align: left;
+    padding-right: 50px;
+}
+
+/* Highlights Section end  */ 
+
+/* Footer Section css Is Here */
+footer{
+    text-align: center;
+}
+.footer-logo img{
+    height: 110px;
+    width: 484px;
+}
+.fab{
+    background-color: lightgray;
+    color: #969BAB;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 12px;
+}
+p{
+    color:#000000;
+}
+
+/* Footer Section css Is Here */
