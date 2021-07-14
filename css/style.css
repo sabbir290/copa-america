@@ -130,8 +130,6 @@ p{
     .header-section{
         display: grid;
         background-color: green;
-        margin-right:0px
-        margin-left: 20px;
     }
     .title-text{
         font-size: 20px;
