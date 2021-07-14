@@ -11,7 +11,7 @@ body{
     display: flex;
     padding-top: 110px;
     padding-bottom: 80px;
-    height: 517px;
+    height: 520px;
     margin-bottom: 70px;
 }
 .title-text{
@@ -124,3 +124,67 @@ p{
 }
 
 /* Footer Section css Is Here */
+
+/* Media Queries */
+@media only screen and (max-width: 688px) {
+    .header-section{
+        display: grid;
+        background-color: green;
+        margin-right:0px
+        margin-left: 20px;
+    }
+    .title-text{
+        font-size: 20px;
+        padding-left: 0px;
+        line-height: 45px;
+        margin-left: 50px;
+        margin-top: -100px;
+        margin-bottom: ;
+    }
+    .header-logo img{
+        width: 300px;
+        height: 250px;
+        margin-top: -50px;
+        margin-left: 30px;
+        padding-right: 0px;
+        padding-top: 150px;
+    
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px;
+    }
+    .footer-logo img{
+        width: 300px;
+        height: 80px;
+        padding-right: 50px;
+    }
+    .container{
+        width: 100%;
+    }
+    .highlights{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .highlights-div{
+        height: ;
+        margin-left: -140px;
+    }
+    .highlights-div h1{
+        font-size: 30px;
+
+    }
+    .highlights-div p{
+        width: 300px;
+    } 
+    .images img{
+        height: 248px;
+        width: 328px;
+        margin-left: -100px;
+        
+    } 
+}
+/* Footer Section Is End */
